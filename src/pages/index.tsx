@@ -1,0 +1,10 @@
+export { default as HomePage } from "./HomePage";
+export { default as AboutPage } from "./AboutPage";
+export { default as WorksPage } from "./WorksPage";
+export { default as ResumePage } from "./ResumePage";
+export { default as StreetSchoolPage } from "./StreetSchoolPage";
+export { default as CrypcentraPage } from "./CrypcentraPage";
+export { default as EnvoyPage } from "./EnvoyPage";
+export { default as KiwiPage } from "./KiwiPage";
+export { default as SuavePage } from "./SuavePage";
+export { default as TravaPage } from "./TravaPage";
