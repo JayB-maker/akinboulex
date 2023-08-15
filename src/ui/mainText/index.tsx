@@ -8,15 +8,16 @@ interface ITextProps {
   color?: string;
   size?: string;
   heavy?: boolean;
+  lineheight?: string;
 }
 
 const MainText = (props: ITextProps) => {
-  const { span, text, center, width, color, size, heavy } = props;
+  const { span, text, center, width, color, size, heavy, lineheight } = props;
   return (
     <Text
       heavy={heavy}
       size={size ? size : "24px"}
-      lineheight="45.6px"
+      lineheight={lineheight ? lineheight : "46px"}
       width={width}
       mdwidth="100%"
       mdsize=""

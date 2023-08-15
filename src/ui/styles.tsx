@@ -86,6 +86,7 @@ export const Card = styled("div")<ICardProps>`
   border-top: ${(props) => props.btop && `${props.btop}`};
   border-bottom: ${(props) => props.bbottom && `${props.bbottom}`};
   border-left: ${(props) => props.bdleft && `${props.bdleft}`};
+  border-right: ${(props) => props.bdright && `${props.bdright}`};
   padding: ${(props) => (props.padding ? `${props.padding}` : "0px")};
   margin: ${(props) => (props.margin ? `${props.margin}` : "0px")};
   // padding-top: ${(props) => (props.ptop ? `${props.ptop}` : "0px")};

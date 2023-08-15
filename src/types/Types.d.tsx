@@ -11,6 +11,7 @@ export interface ICardProps {
     transition?: string;
     bg?: string;
     bdleft?: string;
+    bdright?: string;
     width?: string;
     columngap?: string;
     color?: string;
