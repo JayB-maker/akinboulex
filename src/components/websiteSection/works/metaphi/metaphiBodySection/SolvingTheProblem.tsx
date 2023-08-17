@@ -12,6 +12,8 @@ const SolvingTheProblem = () => {
           title="Identifying areas for improvement"
           color={black3}
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
         />
         <MainText
@@ -33,6 +35,8 @@ const SolvingTheProblem = () => {
         <MainTitle
           title="Brainstorming"
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
           color={black3}
         />

@@ -1,6 +1,19 @@
 import MainText from "../../../../../ui/mainText";
 import MainTitle from "../../../../../ui/mainTitle";
 import { Card, Image, black3 } from "../../../../../ui/styles";
+import PushingPixels1 from '../../../../../assets/pushing-pixels-1.svg'
+import PushingPixels2 from '../../../../../assets/pushing-pixels-2.svg'
+import PushingPixels3 from '../../../../../assets/pushing-pixels-3.svg'
+import PushingPixels4 from '../../../../../assets/pushing-pixels-4.svg'
+import PushingPixels5 from '../../../../../assets/pushing-pixels-5.svg'
+import PushingPixels6 from '../../../../../assets/pushing-pixels-6.svg'
+import PushingPixels7 from '../../../../../assets/pushing-pixels-7.svg'
+import PushingPixels8 from '../../../../../assets/pushing-pixels-8.svg'
+import PushingPixels9 from '../../../../../assets/pushing-pixels-9.svg'
+import PushingPixels10 from '../../../../../assets/pushing-pixels-10.svg'
+import PushingPixels11 from '../../../../../assets/pushing-pixels-11.svg'
+import PushingPixels12 from '../../../../../assets/pushing-pixels-12.svg'
+import PushingPixels13 from '../../../../../assets/pushing-pixels-13.svg'
 
 const PushingPixels = () => {
   return (
@@ -14,11 +27,11 @@ const PushingPixels = () => {
           color={black3}
         />
       </Card>
-      <Card flex flexdirection="column" gap="72px" margin="14px 0 40px">
-        <Image src="" alt="pushing-pixels-1" />
-        <Card flex gap="21px" width="100%" mdflexdirection="column">
-          <Image src="" alt="pushing-pixels-2" />
-          <Image src="" alt="pushing-pixels-3" />
+      <Card flex flexdirection="column" gap="72px" smgap="40px" margin="14px 0 40px">
+        <Image src={PushingPixels1} alt="pushing-pixels-1" />
+        <Card flex gap="21px" width="100%" mdflexdirection="column" smgap="40px">
+          <Image src={PushingPixels2} alt="pushing-pixels-2" />
+          <Image src={PushingPixels3} alt="pushing-pixels-3" />
         </Card>
       </Card>
       <MainText
@@ -28,12 +41,14 @@ const PushingPixels = () => {
         color={black3}
       />
       <Card margin="14px 0 40px">
-        <Image src="" alt="pushing-pixels-4" />
+        <Image src={PushingPixels4} alt="pushing-pixels-4" smwidth="100%" />
       </Card>
       <Card flex flexdirection="column" gap="8px">
         <MainTitle
           title="User has control of keys"
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
           color={black3}
         />
@@ -44,8 +59,8 @@ const PushingPixels = () => {
           color={black3}
         />
       </Card>
-      <Card margin="14px 0 40px">
-        <Image src="" alt="pushing-pixels-5" />
+      <Card margin="14px 0 40px" smwidth="100%">
+        <Image src={PushingPixels5} alt="pushing-pixels-5" smwidth="100%" />
       </Card>
       <MainText
         text="To access this private key, the user creates a password and uses this to decrypt their private key. They are of course, informed of how much privacy is required when dealing with their keys."
@@ -54,15 +69,17 @@ const PushingPixels = () => {
         color={black3}
       />
       <Card margin="14px 0 40px">
-        <Card flex gap="27px" width="100%" mdflexdirection="column">
-          <Image src="" alt="pushing-pixels-6" />
-          <Image src="" alt="pushing-pixels-7" />
+        <Card flex gap="27px" smgap="40px" width="100%" mdflexdirection="column">
+          <Image src={PushingPixels6} alt="pushing-pixels-6" />
+          <Image src={PushingPixels7} alt="pushing-pixels-7" />
         </Card>
       </Card>
       <Card flex flexdirection="column" gap="8px">
         <MainTitle
           title="The Dashboard"
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
           color={black3}
         />
@@ -73,14 +90,16 @@ const PushingPixels = () => {
           color={black3}
         />
       </Card>
-      <Card flex flexdirection="column" gap="72px" margin="14px 0 40px">
-        <Image src="" alt="pushing-pixels-8" />
-        <Image src="" alt="pushing-pixels-9" />
+      <Card flex flexdirection="column" gap="72px" smgap="40px" margin="14px 0 40px">
+        <Image src={PushingPixels8} alt="pushing-pixels-8" />
+        <Image src={PushingPixels9} alt="pushing-pixels-9" />
       </Card>
       <Card flex flexdirection="column" gap="8px">
         <MainTitle
           title="Purchasing Crypto"
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
           color={black3}
         />
@@ -91,14 +110,16 @@ const PushingPixels = () => {
           color={black3}
         />
       </Card>
-      <Card flex flexdirection="column" gap="72px" margin="14px 0 40px">
-        <Image src="" alt="pushing-pixels-10" />
-        <Image src="" alt="pushing-pixels-11" />
+      <Card flex flexdirection="column" gap="72px" smgap="40px" margin="14px 0 40px">
+        <Image src={PushingPixels10} alt="pushing-pixels-10" />
+        <Image src={PushingPixels11} alt="pushing-pixels-11" />
       </Card>
       <Card flex flexdirection="column" gap="8px">
         <MainTitle
           title="Discharging Features "
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
           color="#E42C2C"
         />
@@ -110,9 +131,9 @@ const PushingPixels = () => {
         />
       </Card>
       <Card margin="14px 0 40px">
-        <Card flex gap="21px" width="100%" mdflexdirection="column">
-          <Image src="" alt="pushing-pixels-12" />
-          <Image src="" alt="pushing-pixels-13" />
+        <Card flex gap="21px" smgap="40px" width="100%" mdflexdirection="column">
+          <Image src={PushingPixels12} alt="pushing-pixels-12" />
+          <Image src={PushingPixels13} alt="pushing-pixels-13" />
         </Card>
       </Card>
       <Card flex flexdirection="column" gap="8px">

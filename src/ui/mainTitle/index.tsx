@@ -10,10 +10,22 @@ interface ITextProps {
   smSize?: string;
   heavy?: boolean;
   lineheight?: string;
+  smlineheight?: string;
 }
 
 const MainTitle = (props: ITextProps) => {
-  const { span, title, center, width, color, size, smSize, heavy, lineheight } = props;
+  const {
+    span,
+    title,
+    center,
+    width,
+    color,
+    size,
+    smSize,
+    heavy,
+    lineheight,
+    smlineheight,
+  } = props;
   return (
     <Text
       heavy={heavy}
@@ -24,7 +36,7 @@ const MainTitle = (props: ITextProps) => {
       mdsize=""
       mdlineheight=""
       smsize={smSize ? smSize : "32px"}
-      smlineheight="60.8px"
+      smlineheight={smlineheight ? smlineheight : "60px"}
       color={color ? color : black}
       center={center ? true : false}
       weight="400"

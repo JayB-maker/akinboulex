@@ -4,6 +4,7 @@ import MainText from "../../../../../ui/mainText";
 import TextHighlight from "../../../../../ui/TextHighlight/TextHighlight";
 import ListText from "../../../../../ui/listText/ListText";
 import PrototypeButton from "../../../../../ui/prototypeButton";
+import MeasuringOutcome1 from '../../../../../assets/measuring-outcome-1.svg'
 
 const MeasuringOutcome = () => {
   const testAreaDetails = [
@@ -28,7 +29,7 @@ const MeasuringOutcome = () => {
         />
       </Card>
       <Card margin="14px 0 40px">
-        <Image src="" alt="measuring-outcome-1" />
+        <Image src={MeasuringOutcome1} alt="measuring-outcome-1" smwidth="100%" />
       </Card>
       <Card margin="14px 0">
         <TextHighlight
@@ -51,6 +52,8 @@ const MeasuringOutcome = () => {
           title="Areas to test for include:"
           color={black3}
           size="24px"
+          smSize="16px"
+          smlineheight="23px"
           lineheight="34px"
         />
         <Card flex flexdirection="column" gap="8px">
@@ -72,6 +75,9 @@ const MeasuringOutcome = () => {
         justifycontent="center"
         gap="56px"
         alignitems="center"
+        smflexdirection="column"
+        smgap="40px"
+        smmargin="40px 0 72px"
       >
         <PrototypeButton buttonText="View Web Prototype" path="" />
         <PrototypeButton buttonText="View Mobile Prototype" path="" />

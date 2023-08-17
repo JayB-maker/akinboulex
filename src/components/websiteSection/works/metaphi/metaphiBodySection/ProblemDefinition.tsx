@@ -25,7 +25,7 @@ const ProblemDefinition = () => {
         />
       </Card>
       <Card flex flexdirection="column" gap="8px">
-        <MainTitle title="Think of this..." size="24px" lineheight="34px" color={black3} />
+        <MainTitle title="Think of this..." size="24px" smSize="16px" smlineheight="23px" lineheight="34px" color={black3} />
         <MainText
           text="Sandra, a gamer pretty familiar with the web2 space hears about Pegaxy, a blockchain game, and decides to play. To do so, she needs to integrate a wallet to enable payments. She is unfamiliar with how crypto wallets work and has just learned that she will need to install a browser extension and try to decipher how to navigate around that too. She is pissed and shuts down her device…never to be heard from again."
           size="16px"
@@ -44,6 +44,8 @@ const ProblemDefinition = () => {
           title="Making the blockchain more accessible to"
           span="non-crypto native users"
           size="32px"
+          smSize="24px"
+          smlineheight="34px"
           lineheight="145%"
           color={black3}
           width="830px"

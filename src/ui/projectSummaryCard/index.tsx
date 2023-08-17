@@ -2,10 +2,13 @@ import { Card, Text, TitleText, black1, black3, white1 } from "../styles";
 
 interface IProjectSummaryCardProps {
   text?: string;
+  notSummary?: boolean;
+  size?: string;
+  lineheight?: string;
 }
 
 const ProjectSummaryCard = (props: IProjectSummaryCardProps) => {
-  const { text } = props;
+  const { text, notSummary, lineheight, size } = props;
   return (
     <Card
       flex
@@ -20,20 +23,22 @@ const ProjectSummaryCard = (props: IProjectSummaryCardProps) => {
       smgap="8px"
       radius="12px"
     >
-      <TitleText
-        size="16px"
-        smsize="14px"
-        lineheight="30px"
-        smlineheight="26.6px"
-        color={black3}
-        weight="400"
-      >
-        PROJECT SUMMARY
-      </TitleText>
+      {!notSummary && (
+        <TitleText
+          size="16px"
+          smsize="14px"
+          lineheight="30px"
+          smlineheight="26.6px"
+          color={black3}
+          weight="400"
+        >
+          PROJECT SUMMARY
+        </TitleText>
+      )}
       <Text
-        size="16px"
+        size={size ? size : "16px"}
         smsize="14px"
-        lineheight="23px"
+        lineheight={lineheight ? lineheight : "23px"}
         smlineheight="26.6px"
         color={black1}
         weight="400"
