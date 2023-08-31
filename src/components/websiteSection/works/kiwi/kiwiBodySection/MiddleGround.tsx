@@ -1,6 +1,10 @@
 import MainText from "../../../../../ui/mainText";
 import MainTitle from "../../../../../ui/mainTitle";
 import { Card, Image, black3 } from "../../../../../ui/styles";
+import MiddleGround1 from '../../../../../assets/middle-ground-1.svg'
+import MiddleGround2 from '../../../../../assets/middle-ground-2.svg'
+import MiddleGround3 from '../../../../../assets/middle-ground-3.svg'
+import MiddleGround4 from '../../../../../assets/middle-ground-4.svg'
 
 const MiddleGround = () => {
   return (
@@ -49,9 +53,10 @@ const MiddleGround = () => {
           width="100%"
           mdflexdirection="column"
           smgap="40px"
+          justifycontent="center"
         >
-          <Image src="" alt="middle-ground-1" />
-          <Image src="" alt="middle-ground-2" />
+          <Image src={MiddleGround1} alt="middle-ground-1" />
+          <Image src={MiddleGround2} alt="middle-ground-2" />
         </Card>
       </Card>
       <MainText
@@ -73,9 +78,10 @@ const MiddleGround = () => {
           width="100%"
           mdflexdirection="column"
           smgap="40px"
+          justifycontent="center"
         >
-          <Image src="" alt="middle-ground-3" />
-          <Image src="" alt="middle-ground-4" />
+          <Image src={MiddleGround3} alt="middle-ground-3" />
+          <Image src={MiddleGround4} alt="middle-ground-4" />
         </Card>
       </Card>
     </Card>

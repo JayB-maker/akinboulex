@@ -1,4 +1,5 @@
 import ProjectHeroSection from "../../../../../ui/projectHeroSection";
+import KiwiHero from '../../../../../assets/kiwi-hero.svg'
 
 const roleDetails = [
   {
@@ -23,7 +24,7 @@ const roleDetails = [
 const KiwiHeroSection = () => {
   return (
     <ProjectHeroSection
-      projectImage="https://res.cloudinary.com/dt3jkpbws/image/upload/v1685979287/portfolio-assets/kiwi_hbav73.svg"
+      projectImage={KiwiHero}
       projectName="Kiwi"
       projectSummary="Through research, we identified two user groups to design for and through efficient strategy, designed a hands-off crypto investment platform which means users did not need to monitor or manage assets by themselves. Our biggest challenge was designing for both user groups. Read on to see how we tackled this!"
       roleDetails={roleDetails}

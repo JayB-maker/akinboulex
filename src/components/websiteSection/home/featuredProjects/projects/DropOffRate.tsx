@@ -5,6 +5,7 @@ import {
   TitleText,
   white,
 } from "../../../../../ui/styles";
+import HomeMetaphi from "../../../../../assets/home-metaphi.svg";
 
 const DropOffRate = () => {
   return (
@@ -54,8 +55,13 @@ const DropOffRate = () => {
           Read Case Study
         </LinkText>
       </Card>
-      <Card flexratio="1" bg="#FFFFFF" mdradius="16px 16px 0px 0px" overflow="hidden">
-        <Image src="https://res.cloudinary.com/dt3jkpbws/image/upload/v1685979289/portfolio-assets/metaphil-home_urkgwo.svg" alt="metaphil" width="100%" />
+      <Card
+        flexratio="1"
+        bg="#FFFFFF"
+        mdradius="16px 16px 0px 0px"
+        overflow="hidden"
+      >
+        <Image src={HomeMetaphi} alt="metaphil" width="100%" />
       </Card>
     </Card>
   );

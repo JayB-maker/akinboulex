@@ -1,6 +1,7 @@
 import { Card, Image, black3 } from '../../../../../ui/styles'
 import MainTitle from '../../../../../ui/mainTitle'
 import MainText from '../../../../../ui/mainText'
+import SaveTime1 from '../../../../../assets/middle-ground-5.svg'
 
 const SaveTime = () => {
   return (
@@ -20,8 +21,8 @@ const SaveTime = () => {
           color={black3}
         />
       </Card>
-      <Card margin="14px 0 40px">
-        <Image src="" alt="save-time-1" />
+      <Card margin="14px auto 40px">
+        <Image src={SaveTime1} alt="save-time-1" smwidth='100%' />
       </Card>
       <MainText
           text="All flows within the app were reduced to the shortest stretch that was possible without compromising on structure, progressive disclosure, and experience."

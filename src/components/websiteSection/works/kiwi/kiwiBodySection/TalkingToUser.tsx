@@ -2,6 +2,7 @@ import TextHighlight from "../../../../../ui/TextHighlight/TextHighlight";
 import MainText from "../../../../../ui/mainText";
 import MainTitle from "../../../../../ui/mainTitle";
 import { Card, Image, black3 } from "../../../../../ui/styles";
+import TalkingToUser1 from '../../../../../assets/talking-to-user.svg'
 
 const TalkingToUser = () => {
   return (
@@ -62,7 +63,7 @@ const TalkingToUser = () => {
         />
       </Card>
       <Card margin="14px 0 40px">
-        <Image src="" alt="talking-to-user-1" />
+        <Image src={TalkingToUser1} alt="talking-to-user-1" smwidth="100%" />
       </Card>
       <MainText
           text="We decided to work on designing a solution that finds a middle ground between crypto natives and non-crypto natives."

@@ -1,6 +1,9 @@
 import MainText from "../../../../../ui/mainText"
 import MainTitle from "../../../../../ui/mainTitle"
 import { Card, Image, black3 } from "../../../../../ui/styles"
+import DesigningFeatures1 from '../../../../../assets/designing-features-1.svg'
+import DesigningFeatures2 from '../../../../../assets/designing-features-2.svg'
+import DesigningFeatures3 from '../../../../../assets/designing-features-3.svg'
 
 const DesigningFeatures = () => {
   return (
@@ -35,9 +38,10 @@ const DesigningFeatures = () => {
           width="100%"
           mdflexdirection="column"
           smgap="40px"
+          justifycontent="center"
         >
-          <Image src="" alt="designing-features-1" />
-          <Image src="" alt="designing-features-2" />
+          <Image src={DesigningFeatures1} alt="designing-features-1" />
+          <Image src={DesigningFeatures2} alt="designing-features-2" />
         </Card>
       </Card>
       <Card flex flexdirection="column" gap="8px">
@@ -62,8 +66,8 @@ const DesigningFeatures = () => {
           color={black3}
         />
       </Card>
-      <Card margin="14px 0 40px">
-        <Image src="" alt="designing-features-3" />
+      <Card margin="14px auto 40px">
+        <Image src={DesigningFeatures3} alt="designing-features-3" />
       </Card>
     </Card>
   )

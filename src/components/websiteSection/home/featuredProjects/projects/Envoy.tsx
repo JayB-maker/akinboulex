@@ -8,6 +8,7 @@ import {
 } from "../../../../../ui/styles";
 import ProjectCard from "../../../../../ui/projectCard/ProjectCard";
 import { useState } from "react";
+import HomeEnvoy from '../../../../../assets/home-envoy.svg'
 
 const Envoy = () => {
   const [hover, setHover] = useState(false);

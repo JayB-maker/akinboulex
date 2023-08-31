@@ -5,6 +5,7 @@ import {
   TitleText,
   white,
 } from "../../../../../ui/styles";
+import HomeCrypcentra from "../../../../../assets/home-crypcentra.svg";
 
 const Cryptcentra = () => {
   return (
@@ -55,8 +56,21 @@ const Cryptcentra = () => {
           Read Case Study
         </LinkText>
       </Card>
-      <Card flexratio="1" bg="#FFFFFF" mdradius="16px 16px 0px 0px" overflow="hidden">
-        <Image src="https://res.cloudinary.com/dt3jkpbws/image/upload/v1685979462/portfolio-assets/crypcentra-home_hoozvx.svg" alt="cryptcentra" width="100%" />
+      <Card
+        flexratio="1"
+        bg="#FFFFFF"
+        mdradius="16px 16px 0px 0px"
+        overflow="hidden"
+        justifycontent="center"
+        alignitems="center"
+        flex
+      >
+        <Image
+          src={HomeCrypcentra}
+          alt="cryptcentra"
+          width="90%"
+          smwidth="100%"
+        />
       </Card>
     </Card>
   );

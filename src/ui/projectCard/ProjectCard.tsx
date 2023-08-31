@@ -1,7 +1,7 @@
 import { Card, Image, LinkText, TitleText, white, white1 } from "../styles";
 
 interface IProjectCardProps {
-  image?: string;
+  image?: any;
   projectName?: string;
   color?: string;
   buttonText?: string;

@@ -1,10 +1,12 @@
 import ProjectCard from "../../../../../ui/projectCard/ProjectCard";
 import { Card } from "../../../../../ui/styles";
+import HomeKiwi from '../../../../../assets/home-kiwi.svg'
+import HomeSuave from '../../../../../assets/home-suave.svg'
 
 const cryptoInvestmentDetails = [
   {
     projectName: "Designing a hands-off crypto investment mobile app",
-    image: "https://res.cloudinary.com/dt3jkpbws/image/upload/v1685979282/portfolio-assets/kiwi-home_w7cko9.svg",
+    image: HomeKiwi,
     buttonText: "Read Case Study",
     color: "#131902",
     textWidth: "478px",
@@ -13,7 +15,7 @@ const cryptoInvestmentDetails = [
   {
     projectName:
       "Revolutionizing the art and act of trips and vacations planning",
-    image: "https://res.cloudinary.com/dt3jkpbws/image/upload/v1685979370/portfolio-assets/suave-home_mqdcbr.svg",
+    image: HomeSuave,
     buttonText: "Read Case Study",
     color: "#230E7C",
     textWidth: "478px",
